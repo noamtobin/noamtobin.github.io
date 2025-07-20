@@ -1,0 +1,13 @@
+# _data/authors.yml
+noam_tobin:
+  name: "Noam Tobin"
+  avatar: "/assets/images/noamtobin_portrait.jpeg"
+  bio: "Quant researcher & developer, ex‑PhD candidate in Financial Mathematics."
+  location: "Toronto, Canada"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/noamtobin"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/noam-tobin-3945492a4"

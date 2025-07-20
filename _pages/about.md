@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hi, I’m Noam 👋. I’m a Financial Mathematics PhD candidate at York University, where I research systemic‑risk modelling in financial networks. Alongside my research, I develop systematic portfolio strategies for real‑world markets as I prepare to transition into industry.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I’m fascinated by how market participants make decisions, and I'm refining factor‑modelling techniques to capture those dynamics. I also explore high‑dimensional financial data through tensor‑network and quantum‑cognition methods, and I’m eager to apply reinforcement and inverse‑reinforcement learning to turn advanced algorithms into actionable investment insights.
+
+In my personal time, I practice yoga, compose music, watch films, and study history and cultural anthropology. I also follow emerging trends in tech, science, and geopolitics.
