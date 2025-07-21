@@ -1,36 +1,89 @@
-/* assets/css/custom.css */
+/* ─── Import Fonts ───────────────────────────────────────────── */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600;700&display=swap");
 
-/* Import Google Fonts (must be one unbroken line!) */
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;600;700&display=swap");
-
-/* Body copy in Lora (serif) */
+/* ─── Global Typography ──────────────────────────────────────── */
 body {
-  font-family: 'Lora', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
+  color: #000000;
+  background-color: #ffffff;
 }
 
-/* Headings in Montserrat (sans‑serif) */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+/* ─── Headings ───────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  color: #000000;
 }
 
-/* Header: site title & main nav only */
-.site-header .site-title,
-.site-header nav.main-nav,
-.site-header nav.main-nav a {
-  font-family: 'Montserrat', sans-serif;
+/* ─── Header: Title & Nav ────────────────────────────────────── */
+.site-title,
+.masthead,
+.masthead a,
+.masthead .site-nav a,
+.masthead .site-nav a:visited,
+.masthead .site-nav a:focus,
+.masthead .site-nav a:hover,
+.masthead .site-nav a:active,
+.masthead .site-nav a.active {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
 }
 
-/* Footer: links & copyright */
-.site-footer .footer-links,
-.site-footer .footer-links a,
-.site-footer .site-info {
-  font-family: 'Montserrat', sans-serif;
+/* Remove active tab underline */
+.masthead .site-nav a.active {
+  border-bottom: none;
+  box-shadow: none;
 }
 
-/* Keep code blocks monospace */
+/* ─── Footer (REVISED) ───────────────────────────────────────── */
+/* Makes the footer background transparent but keeps the content */
+.page__footer {
+  background: transparent !important;
+  color: #000 !important;
+}
+
+/* Ensures footer links are black */
+.page__footer a {
+  color: #000 !important;
+}
+
+/* ─── Home Layout Overrides ──────────────────────────────────── */
+.layout--home h1,
+.layout--home h2,
+.layout--home h3,
+.layout--home h4,
+.layout--home h5,
+.layout--home h6,
+.layout--home .archive__item-title,
+.layout--home .page__title,
+.layout--home .site-title,
+.layout--home .site-nav a {
+  color: #000000;
+}
+
+/* ─── Code Blocks ────────────────────────────────────────────── */
 pre, code, kbd, samp {
-  font-family: 'Fira Code', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.9em;
+  color: #000000;
+  background-color: #f5f5f5;
+}
+
+/* ─── Search Elements (REVISED) ──────────────────────────────── */
+/* This makes the search input placeholder text and icon black */
+.search__input::placeholder {
+  color: #000 !important;
+  opacity: 0.5; /* Makes placeholder text slightly faded */
+}
+
+.search__toggle {
+  color: #000 !important;
 }
