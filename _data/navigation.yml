@@ -3,6 +3,5 @@ main:
     url: /blog/
   - title: "CV"
     url: /cv/
-    target: "_blank"
   - title: "About"
     url: /about/
