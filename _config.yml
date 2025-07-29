@@ -21,6 +21,9 @@ github_username: "noamtobin"
 minimal_mistakes_skin: default
 search: true
 
+# Site icon that appears in the browser tab
+favicon: "/assets/images/favicon.png"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -83,7 +86,6 @@ defaults:
       type: pages
     values:
       layout: single
-      # author_profile: "noam_tobin"
 
 category_archive:
   type: liquid
